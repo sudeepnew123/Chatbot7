@@ -465,5 +465,6 @@ async def vickprivatesticker(client: Client, message: Message):
            if not Yo == "text":
                await message.reply_sticker(f"{hey}")
 
-print(f"{BOT_NAME} ɪs ᴀʟɪᴠᴇ!")      
-BRANDEDCHAT.run()
+if __name__ == "__main__":
+    print("Bot is starting...")
+    BRANDEDCHAT.run()
